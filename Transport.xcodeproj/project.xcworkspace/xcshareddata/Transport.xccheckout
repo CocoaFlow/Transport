@@ -22,7 +22,7 @@
 		<key>0E6D588E82EE0418D596FCECF2796F44FE2B655B</key>
 		<string>../..</string>
 		<key>4EC9242325463947345742C074D276FC6778FE31</key>
-		<string>../..External/json-swift/</string>
+		<string>../..External/json-swift</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:CocoaFlow/Transport.git</string>
