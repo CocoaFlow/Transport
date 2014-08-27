@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9A472B4E-E7B7-4881-91AD-3DE2B65AE6F9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Transport</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0E6D588E82EE0418D596FCECF2796F44FE2B655B</key>
+		<string>github.com:CocoaFlow/Transport.git</string>
+		<key>4EC9242325463947345742C074D276FC6778FE31</key>
+		<string>github.com:owensd/json-swift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Transport.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0E6D588E82EE0418D596FCECF2796F44FE2B655B</key>
+		<string>../..</string>
+		<key>4EC9242325463947345742C074D276FC6778FE31</key>
+		<string>../..External/json-swift/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:CocoaFlow/Transport.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0E6D588E82EE0418D596FCECF2796F44FE2B655B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4EC9242325463947345742C074D276FC6778FE31</string>
+			<key>IDESourceControlWCCName</key>
+			<string>json-swift</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0E6D588E82EE0418D596FCECF2796F44FE2B655B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Transport</string>
+		</dict>
+	</array>
+</dict>
+</plist>
