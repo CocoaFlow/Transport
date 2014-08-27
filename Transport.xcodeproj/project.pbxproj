@@ -11,6 +11,8 @@
 		DADA67EA19AD85A30062316A /* Transport.h in Headers */ = {isa = PBXBuildFile; fileRef = DADA67B519AD7F240062316A /* Transport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DADA680719AD87470062316A /* JSONLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADA680019AD87120062316A /* JSONLib.framework */; };
 		DADA680819AD87540062316A /* JSONLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADA680019AD87120062316A /* JSONLib.framework */; };
+		DADA680A19AD87A20062316A /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA680919AD87A20062316A /* Transport.swift */; };
+		DADA680B19AD87A20062316A /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA680919AD87A20062316A /* Transport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,7 @@
 		DADA67CE19AD83150062316A /* Transport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Transport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADA67D819AD83150062316A /* TransportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADA67F819AD87120062316A /* JSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JSON.xcodeproj; path = "External/json-swift/JSON.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		DADA680919AD87A20062316A /* Transport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,7 @@
 				DADA67F819AD87120062316A /* JSON.xcodeproj */,
 				DADA67B519AD7F240062316A /* Transport.h */,
 				DADA67B319AD7F240062316A /* Supporting Files */,
+				DADA680919AD87A20062316A /* Transport.swift */,
 			);
 			path = Transport;
 			sourceTree = "<group>";
@@ -362,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADA680A19AD87A20062316A /* Transport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +381,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADA680B19AD87A20062316A /* Transport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
