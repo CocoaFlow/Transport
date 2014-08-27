@@ -50,10 +50,10 @@
 		DADA67B019AD7F240062316A /* Transport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Transport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADA67B419AD7F240062316A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DADA67B519AD7F240062316A /* Transport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transport.h; sourceTree = "<group>"; };
-		DADA67BB19AD7F240062316A /* TransportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADA67BB19AD7F240062316A /* Transport-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Transport-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADA67BE19AD7F240062316A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DADA67CE19AD83150062316A /* Transport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Transport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DADA67D819AD83150062316A /* TransportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADA67D819AD83150062316A /* Transport-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Transport-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADA67F819AD87120062316A /* JSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JSON.xcodeproj; path = "External/json-swift/JSON.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		DADA680919AD87A20062316A /* Transport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,9 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				DADA67B019AD7F240062316A /* Transport.framework */,
-				DADA67BB19AD7F240062316A /* TransportTests.xctest */,
+				DADA67BB19AD7F240062316A /* Transport-MacTests.xctest */,
 				DADA67CE19AD83150062316A /* Transport.framework */,
-				DADA67D819AD83150062316A /* TransportTests.xctest */,
+				DADA67D819AD83150062316A /* Transport-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -212,7 +212,7 @@
 			);
 			name = "Transport-MacTests";
 			productName = TransportTests;
-			productReference = DADA67BB19AD7F240062316A /* TransportTests.xctest */;
+			productReference = DADA67BB19AD7F240062316A /* Transport-MacTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		DADA67CD19AD83150062316A /* Transport-iOS */ = {
@@ -247,7 +247,7 @@
 			);
 			name = "Transport-iOSTests";
 			productName = TransportTests;
-			productReference = DADA67D819AD83150062316A /* TransportTests.xctest */;
+			productReference = DADA67D819AD83150062316A /* Transport-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -657,6 +657,7 @@
 				DADA67C519AD7F240062316A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DADA67C619AD7F240062316A /* Build configuration list for PBXNativeTarget "Transport-MacTests" */ = {
 			isa = XCConfigurationList;
@@ -665,6 +666,7 @@
 				DADA67C819AD7F240062316A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DADA67DE19AD83160062316A /* Build configuration list for PBXNativeTarget "Transport-iOS" */ = {
 			isa = XCConfigurationList;
@@ -673,6 +675,7 @@
 				DADA67E019AD83160062316A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DADA67E119AD83160062316A /* Build configuration list for PBXNativeTarget "Transport-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -681,6 +684,7 @@
 				DADA67E319AD83160062316A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
