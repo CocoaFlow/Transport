@@ -1,0 +1,3 @@
+[submodule "External/json-swift"]
+	path = External/json-swift
+	url = git@github.com:owensd/json-swift.git
