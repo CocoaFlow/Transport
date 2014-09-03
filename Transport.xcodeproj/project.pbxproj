@@ -9,42 +9,9 @@
 /* Begin PBXBuildFile section */
 		DADA67B619AD7F240062316A /* Transport.h in Headers */ = {isa = PBXBuildFile; fileRef = DADA67B519AD7F240062316A /* Transport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DADA67EA19AD85A30062316A /* Transport.h in Headers */ = {isa = PBXBuildFile; fileRef = DADA67B519AD7F240062316A /* Transport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DADA680719AD87470062316A /* JSONLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADA680019AD87120062316A /* JSONLib.framework */; };
-		DADA680819AD87540062316A /* JSONLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADA680019AD87120062316A /* JSONLib.framework */; };
 		DADA680A19AD87A20062316A /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA680919AD87A20062316A /* Transport.swift */; };
 		DADA680B19AD87A20062316A /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA680919AD87A20062316A /* Transport.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DADA67FF19AD87120062316A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DADA67F819AD87120062316A /* JSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7D7BD7C2195418CB00AC2E4E;
-			remoteInfo = "JSON-OSX";
-		};
-		DADA680119AD87120062316A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DADA67F819AD87120062316A /* JSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7D7BD7CD195418CC00AC2E4E;
-			remoteInfo = "JSON-OSXTests";
-		};
-		DADA680319AD87120062316A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DADA67F819AD87120062316A /* JSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7D1E362F199478A600856119;
-			remoteInfo = "JSON-iOS";
-		};
-		DADA680519AD87120062316A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DADA67F819AD87120062316A /* JSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7D1E3639199478A600856119;
-			remoteInfo = "JSON-iOSTests";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DADA67B019AD7F240062316A /* Transport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Transport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,7 +21,6 @@
 		DADA67BE19AD7F240062316A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DADA67CE19AD83150062316A /* Transport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Transport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADA67D819AD83150062316A /* Transport-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Transport-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DADA67F819AD87120062316A /* JSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JSON.xcodeproj; path = "External/json-swift/JSON.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		DADA680919AD87A20062316A /* Transport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,7 +29,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DADA680719AD87470062316A /* JSONLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +43,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DADA680819AD87540062316A /* JSONLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +79,6 @@
 		DADA67B219AD7F240062316A /* Transport */ = {
 			isa = PBXGroup;
 			children = (
-				DADA67F819AD87120062316A /* JSON.xcodeproj */,
 				DADA67B519AD7F240062316A /* Transport.h */,
 				DADA67B319AD7F240062316A /* Supporting Files */,
 				DADA680919AD87A20062316A /* Transport.swift */,
@@ -145,17 +108,6 @@
 				DADA67BE19AD7F240062316A /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DADA67F919AD87120062316A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DADA680019AD87120062316A /* JSONLib.framework */,
-				DADA680219AD87120062316A /* JSON-OSXTests.xctest */,
-				DADA680419AD87120062316A /* JSONLib.framework */,
-				DADA680619AD87120062316A /* JSON-iOSTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,12 +235,6 @@
 			mainGroup = DADA67A619AD7F240062316A;
 			productRefGroup = DADA67B119AD7F240062316A /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = DADA67F919AD87120062316A /* Products */;
-					ProjectRef = DADA67F819AD87120062316A /* JSON.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				DADA67AF19AD7F240062316A /* Transport-Mac */,
@@ -298,37 +244,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		DADA680019AD87120062316A /* JSONLib.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = JSONLib.framework;
-			remoteRef = DADA67FF19AD87120062316A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		DADA680219AD87120062316A /* JSON-OSXTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "JSON-OSXTests.xctest";
-			remoteRef = DADA680119AD87120062316A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		DADA680419AD87120062316A /* JSONLib.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = JSONLib.framework;
-			remoteRef = DADA680319AD87120062316A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		DADA680619AD87120062316A /* JSON-iOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "JSON-iOSTests.xctest";
-			remoteRef = DADA680519AD87120062316A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DADA67AE19AD7F240062316A /* Resources */ = {
