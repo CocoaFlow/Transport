@@ -6,16 +6,9 @@
 //  Copyright (c) 2014 CocoaFlow. All rights reserved.
 //
 
-import JSONLib
+import MessageTransfer
 
-public protocol Transport {
+public protocol Transport: MessageSenderWorkaround {
     
-    /**
-        Send a message from the runtime.
-        
-        :param: channel
-        :param: topic
-        :param: payload
-    */
-    func send(channel: String, _ topic: String, _ payload: JSON) -> Void
+    init(_ messageReceiver: MessageReceiverWorkaround)
 }
