@@ -1,0 +1,3 @@
+[submodule "External/MessageTransfer"]
+	path = External/MessageTransfer
+	url = git@github.com:CocoaFlow/MessageTransfer.git
