@@ -11,7 +11,40 @@
 		DADA67EA19AD85A30062316A /* Transport.h in Headers */ = {isa = PBXBuildFile; fileRef = DADA67B519AD7F240062316A /* Transport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DADA680A19AD87A20062316A /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA680919AD87A20062316A /* Transport.swift */; };
 		DADA680B19AD87A20062316A /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA680919AD87A20062316A /* Transport.swift */; };
+		DAEA777019B6DFFC002D650F /* MessageTransfer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEA776919B6DFCE002D650F /* MessageTransfer.framework */; };
+		DAEA777119B6E007002D650F /* MessageTransfer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEA776919B6DFCE002D650F /* MessageTransfer.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAEA776819B6DFCE002D650F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAEA776019B6DFCE002D650F /* MessageTransfer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DAD292D019B6B83100B15F44;
+			remoteInfo = "MessageTransfer-Mac";
+		};
+		DAEA776A19B6DFCE002D650F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAEA776019B6DFCE002D650F /* MessageTransfer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DAD292DB19B6B83200B15F44;
+			remoteInfo = "MessageTransfer-MacTests";
+		};
+		DAEA776C19B6DFCE002D650F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAEA776019B6DFCE002D650F /* MessageTransfer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DAD292F019B6B9EC00B15F44;
+			remoteInfo = "MessageTransfer-iOS";
+		};
+		DAEA776E19B6DFCE002D650F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAEA776019B6DFCE002D650F /* MessageTransfer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DAD292FA19B6B9EC00B15F44;
+			remoteInfo = "MessageTransfer-iOSTests";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DADA67B019AD7F240062316A /* Transport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Transport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +55,7 @@
 		DADA67CE19AD83150062316A /* Transport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Transport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADA67D819AD83150062316A /* Transport-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Transport-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADA680919AD87A20062316A /* Transport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transport.swift; sourceTree = "<group>"; };
+		DAEA776019B6DFCE002D650F /* MessageTransfer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MessageTransfer.xcodeproj; path = External/MessageTransfer/MessageTransfer.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAEA777019B6DFFC002D650F /* MessageTransfer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAEA777119B6E007002D650F /* MessageTransfer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +115,7 @@
 		DADA67B219AD7F240062316A /* Transport */ = {
 			isa = PBXGroup;
 			children = (
+				DAEA776019B6DFCE002D650F /* MessageTransfer.xcodeproj */,
 				DADA67B519AD7F240062316A /* Transport.h */,
 				DADA67B319AD7F240062316A /* Supporting Files */,
 				DADA680919AD87A20062316A /* Transport.swift */,
@@ -108,6 +145,17 @@
 				DADA67BE19AD7F240062316A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAEA776119B6DFCE002D650F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAEA776919B6DFCE002D650F /* MessageTransfer.framework */,
+				DAEA776B19B6DFCE002D650F /* MessageTransfer-MacTests.xctest */,
+				DAEA776D19B6DFCE002D650F /* MessageTransfer.framework */,
+				DAEA776F19B6DFCE002D650F /* MessageTransfer-iOSTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +283,12 @@
 			mainGroup = DADA67A619AD7F240062316A;
 			productRefGroup = DADA67B119AD7F240062316A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DAEA776119B6DFCE002D650F /* Products */;
+					ProjectRef = DAEA776019B6DFCE002D650F /* MessageTransfer.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DADA67AF19AD7F240062316A /* Transport-Mac */,
@@ -244,6 +298,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DAEA776919B6DFCE002D650F /* MessageTransfer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MessageTransfer.framework;
+			remoteRef = DAEA776819B6DFCE002D650F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DAEA776B19B6DFCE002D650F /* MessageTransfer-MacTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "MessageTransfer-MacTests.xctest";
+			remoteRef = DAEA776A19B6DFCE002D650F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DAEA776D19B6DFCE002D650F /* MessageTransfer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MessageTransfer.framework;
+			remoteRef = DAEA776C19B6DFCE002D650F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DAEA776F19B6DFCE002D650F /* MessageTransfer-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "MessageTransfer-iOSTests.xctest";
+			remoteRef = DAEA776E19B6DFCE002D650F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DADA67AE19AD7F240062316A /* Resources */ = {
