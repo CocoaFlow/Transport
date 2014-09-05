@@ -8,7 +8,7 @@
 
 import MessageTransfer
 
-public protocol Transport: MessageSenderWorkaround {
+public protocol Transport: MessageSenderWithReceiver {
     
-    init(_ messageReceiver: MessageReceiverWorkaround)
+    init(_ messageReceiver: MessageReceiverWithSender)
 }
