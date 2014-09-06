@@ -9,6 +9,5 @@
 import MessageTransfer
 
 public protocol Transport: MessageSenderWithReceiver {
-    
-    init(_ messageReceiver: MessageReceiverWithSender)
+
 }
