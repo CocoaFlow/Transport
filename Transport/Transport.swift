@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 CocoaFlow. All rights reserved.
 //
 
+import Foundation
 import MessageTransfer
 
 public protocol Transport: MessageSenderWithReceiver {
